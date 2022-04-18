@@ -1,0 +1,33 @@
+body{
+    background-color: hsl(226, 43%, 10%);
+}
+.name-frame{
+    background-color: hsl(235, 46%, 20%);
+    width: 20%;
+}
+.name{
+    height: 200px;
+    position: static;
+}
+.frame-1{
+    background-color: hsl(53, 100%, 64%);
+    display: flex;
+    width: 50%;
+}
+.work{
+    background-color: aqua;
+}
+.play{
+    background-color: rgb(85, 193, 110);
+}
+.study{
+    background-color: rgb(149, 51, 202);
+}
+.frame-2{
+    background-color: hsl(23, 98%, 48%);
+    display: flex;
+    width: 50%;
+}
+.frames{
+    display: flex;
+}
