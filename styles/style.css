@@ -2,7 +2,7 @@ body{
     background-color: hsl(226, 43%, 10%);
 }
 .name-frame{
-    background-color: hsl(235, 46%, 20%);
+    background-color: hsl(246, 80%, 60%);
     width: 20%;
 }
 .name{
@@ -13,6 +13,7 @@ body{
     background-color: hsl(53, 100%, 64%);
     display: flex;
     width: 50%;
+    height: 50%;
 }
 .work{
     background-color: aqua;
@@ -27,7 +28,21 @@ body{
     background-color: hsl(23, 98%, 48%);
     display: flex;
     width: 50%;
+    height: 50%;
 }
 .frames{
     display: flex;
+    /* transform: translate(-50%, -50%); */
+    /* justify-content: center; */
+    /* height: 200px; */
+    /* align-items: center; */
+    /* position: absolute; */
+    margin-left: 30vw;
+    margin-top: 30vh;
+}
+.jeremy img{
+    width: 35%;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-color: antiquewhite;
 }
