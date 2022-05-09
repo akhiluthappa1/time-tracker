@@ -7,6 +7,8 @@ body{
 .name-frame{
     /* background-color: hsl(246, 80%, 60%); */
     width: 20%;
+    background-color: rgb(26,30,74);
+    border-radius: 8% 8% 8% 8%;
 }
 .name{
     height: 200px;
@@ -66,14 +68,19 @@ body{
     margin-top: 0px;
     /* padding-top: 10px; */
     margin-bottom: 1px;
+    color: rgb(254,254,255);
+    text-align: center;
+    padding-top: 20px;
 }
 .name-frame-upper{
     height: 60%;
     background-color:  hsl(246, 80%, 60%);
+    border-radius: 8%;
     /* margin-bottom: 0px; */
 }
 .name-frame-lower{
     /* margin-top: 0px; */
     background-color: rgb(26,30,74);
     height: 40%;
+    border-radius: 0 0 8% 8%;
 }
